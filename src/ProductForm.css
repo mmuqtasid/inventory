@@ -1,0 +1,64 @@
+/* src/components/ProductForm.css */
+/* .container{
+    align-items: center;
+   width: 100%;
+} */
+.product-form {
+    width: 100%; /* Set width to 100% of the viewport width */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center the form vertically */
+    flex-direction: column; /* Center the form content horizontally */
+  }
+  
+  .product-form h2 {
+    color: #3a90e3; /* Header color */
+    margin-bottom: 20px;
+  }
+  
+  .product-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .product-form label {
+    margin: 10px 0;
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+  }
+  
+  .product-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+  
+  .product-form button {
+    background-color: #3a90e3; /* Button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .product-form button:hover {
+    background-color: #357dbf; /* Button color on hover */
+  }
+  
